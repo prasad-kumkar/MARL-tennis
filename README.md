@@ -5,7 +5,7 @@ hits the ball over the net, it receives a reward of +0.1. If an agent lets a bal
 ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of
 each agent is to keep the ball in play.
 
-[![Running agent](https://raw.githubusercontent.com/aweeraman/reinforcement-learning-tennis/master/images/running_agent.png)](https://www.youtube.com/watch?v=qdMbGFyWKoY)
+[![Running agent](https://raw.githubusercontent.com/prasad-kumkar/MARL-tennis/master/images/running_agent.png)]
 
 The observation space consists of 8 variables corresponding to the position and velocity
 of the ball and racket. Each agent receives its own, local observation. Two continuous
@@ -19,7 +19,7 @@ The steps below will describe how to get this running on MacOS:
 ## 1. Clone the repo
 
 ```
-$ git clone https://github.com/aweeraman/reinforcement-learning-tennis.git
+$ git clone https://github.com/prasad-kumkar/MARL-tennis.git
 ```
 
 ## 2. Install Python & dependencies
@@ -37,7 +37,8 @@ $ pip install -r requirements.txt
 Download a pre-built environment to run the agent. You will not need to install Unity for this. The
 environment is OS specific, so the correct version for the operating system must be downloaded.
 
-For MacOS, [use this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+MacOS, [use this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+
 
 After uncompressing, there should be a directory called "Tennis.app" in the root directory of the repository.
 
@@ -111,7 +112,7 @@ Below is a training run of the above model archicture and hyperparameters:
 * Size of each action: 2
 * Environment solved in 2314 episodes!	Average Score: 0.50
 
-![Plot of rewards](https://raw.githubusercontent.com/aweeraman/reinforcement-learning-tennis/master/images/plot_of_rewards.png)
+![Plot of rewards](https://raw.githubusercontent.com/prasad-kumkar/MARL-tennis/master/images/plot_of_rewards.png)
 
 ## Future work
 
